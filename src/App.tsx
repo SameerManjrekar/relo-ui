@@ -37,7 +37,7 @@ const App: React.FC = () => {
             annotations: [
               {
                 categoryId: selectedCategory,
-                canvasBoxes: [canvasBox],
+                boundingBoxes: [canvasBox],
               },
             ],
           }
